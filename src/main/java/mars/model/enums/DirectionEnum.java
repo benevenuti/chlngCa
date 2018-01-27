@@ -1,11 +1,11 @@
-package hello;
+package mars.model.enums;
 
-public enum Direction {
+public enum DirectionEnum {
 	NORTH("N"), SOUTH("S"), EAST("E"), WEST("W");
 	
 	private String value;
 	
-	private Direction(String dir) {
+	private DirectionEnum(String dir) {
 		this.value = dir;		
 	}
 	
